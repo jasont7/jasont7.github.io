@@ -94,7 +94,7 @@ share-links-active:
 # url-pretty: "jasonthomo.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 35
+excerpt_length: 30
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
@@ -124,13 +124,13 @@ navbar-var-length: false
 
 navbar-col: "#1F2125"
 page-col: "#1F2125"
-footer-col: "#303134"
+footer-col: "#1F2125"
 text-col: "#E8EAED"
 link-col: "#8AB4F8"
-hover-col: "#F68159"
-post-date-col: "#F68159"
+hover-col: "#F46E50"
+post-date-col: "#F46E50"
 border-col: "#5F6368"
-footer-button-col: "#1F2125"
+footer-button-col: "#303134"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
