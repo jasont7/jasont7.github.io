@@ -130,7 +130,7 @@ link-col: "#8AB4F8"
 hover-col: "#F46E50"
 post-date-col: "#F46E50"
 border-col: "#5F6368"
-footer-button-col: "#303134"
+footer-button-col: "#393B3F"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour

@@ -179,7 +179,6 @@ img {
 }
 
 .navbar-custom .navbar-nav .nav-item {
-  text-transform: uppercase;
   font-size: 1rem;
   letter-spacing: 0.0625rem;
 }
@@ -192,7 +191,7 @@ img {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
-  font-weight: 800;
+  font-weight: 600;
   text-decoration: none;
   color: {{ site.text-col | default: "#404040" }};
 }
@@ -418,7 +417,7 @@ footer .list-inline {
   margin-bottom: 1.875rem;
 }
 footer .copyright {
-  font-family: 'Martel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
@@ -576,33 +575,31 @@ footer .footer-custom-content {
 
 .blog-tags {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.9375rem;
-  margin: 1.875rem 0;
+  font-size: 0.9rem;
+  margin: 2rem 0;
 }
 
 .blog-tags span {
-  color: {{ site.text-col | default: "#404040" }};
-  opacity: 0.8;
+  color: #cccccc;
 }
 
 .blog-tags .list-inline-item {
   margin-right: 0;
+  padding-right: 0.25rem;
 }
 
 .blog-tags a {
   font-family: 'Open Sans', sans-serif;
-  color: {{ site.text-col | default: "#404040" }};
+  color: #cccccc;
+  background-color: {{ site.footer-button-col  }};
   text-decoration: none;
-  padding: 0 0.3125rem;
-  opacity: 0.8;
-  border: 1px solid transparent;
-  border-radius: 0.1875rem;
+  padding: 0.1rem 0.6rem;
+  border-radius: 5rem;
 }
 
 .blog-tags a:hover {
-  opacity: 1;
-  color: {{ site.text-col | default: "#404040" }};
-  border-color: {{ site.text-col | default: "#404040" }};
+  background-color: {{ site.hover-col }};
+  color: {{ site.text-col }};
 }
 
 .post-preview .blog-tags {
@@ -808,12 +805,11 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .pagination .page-item .page-link {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 0.875rem;
   font-weight: 800;
   letter-spacing: 1px;
   padding: 0.625rem 0.3125rem;
-  background-color: #303134;
+  background-color: {{ site.footer-button-col }};
   border-radius: 5px;
   border-color: {{ site.border-col | default: "#404040" }};
   color: {{ site.text-col | default: "#404040" }};
