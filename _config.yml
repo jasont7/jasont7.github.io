@@ -130,6 +130,7 @@ hover-col: "#1F6FEB"
 post-date-col: "#88919C"
 border-col: "rgba(240,246,252,0.1)"
 footer-button-col: "rgba(56,139,253,0.15)"
+code-bg-col: "#282f3D"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
