@@ -4,7 +4,6 @@ layout: null
 
 @import url("pygment_highlights.css");
 
-@import url('https://fonts.googleapis.com/css2?family=Martel:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 /* --- General --- */
@@ -14,8 +13,9 @@ html {
 }
 
 body {
-  font-family: 'Martel', sans-serif;
-  font-size: 1.05rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  /* letter-spacing: 0.01rem; */
   color: {{ site.text-col | default: "#404040" }};
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -152,6 +152,8 @@ img {
   padding-bottom: 0.625rem;
   font-size: 1.25rem;
   font-weight: 800;
+  text-decoration: none;
+  color: {{ site.link-col }};
 }
 
 .navbar-custom .navbar-brand-logo {
@@ -190,7 +192,6 @@ img {
   padding-bottom: 0.9375rem;
 }
 
-.navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   text-decoration: none;
   color: {{ site.text-col | default: "#404040" }};
@@ -322,7 +323,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: {{ site.hover-col | default: "#0085A1" }};
+  color: {{ site.link-col | default: "#0085A1" }};
 }
 
 .navbar-custom .avatar-container {
@@ -429,7 +430,7 @@ footer .theme-by {
 footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
-  font-family: 'Martel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -471,7 +472,7 @@ footer .footer-custom-content {
 
 .post-preview a {
   text-decoration: none;
-  font-family: 'Martel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: {{ site.text-col | default: "#404040" }};
 }
 
@@ -496,7 +497,7 @@ footer .footer-custom-content {
   font-size: 1rem;
   font-style: italic;
   margin: 0 0 0.625rem;
-  font-family: 'Martel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .post-heading .post-meta {
   display: inline-block;
@@ -629,7 +630,7 @@ footer .footer-custom-content {
 }
 
 #full-tags-list {
-  font-family: 'Martel', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #full-tags-list .tag-entry {
