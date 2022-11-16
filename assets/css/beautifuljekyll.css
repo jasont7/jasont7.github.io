@@ -593,7 +593,7 @@ footer .footer-custom-content {
 .blog-tags a {
   font-family: 'Open Sans', sans-serif;
   color: {{ site.link-col }};
-  background-color: rgba(56,139,253,0.15); /*{{ site.footer-button-col  }};*/
+  background-color: {{ site.footer-button-col  }};
   text-decoration: none;
   padding: 0.25rem 0.65rem;
   border-radius: 5rem;
