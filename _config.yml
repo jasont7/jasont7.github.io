@@ -21,7 +21,6 @@ author: Jason Thomo
 
 navbar-links:
   About Me: "aboutme"
-  CV: "https://drive.google.com/file/d/1GVkGngMvZk7-QiykO3um46avpqqb64nd/view"
 
 ################
 # --- Logo --- #
@@ -129,7 +128,8 @@ link-col: "#58A6FE"
 hover-col: "#1F6FEB"
 post-date-col: "#88919C"
 border-col: "rgba(240,246,252,0.1)"
-footer-button-col: "rgba(56,139,253,0.15)"
+tag-button-col: "rgba(56,139,253,0.15)"
+footer-button-col: "#333333"
 code-bg-col: "#282f3D"
 
 # Alternatively, the navbar, footer, and page background can be set to an image

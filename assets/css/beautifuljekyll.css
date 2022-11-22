@@ -587,13 +587,12 @@ footer .footer-custom-content {
 
 .blog-tags .list-inline-item {
   margin-right: 0;
-  padding-right: 0.25rem;
-  padding-top: 0.25rem;
+  padding: 0.25rem;
 }
 
 .blog-tags a {
   color: {{ site.link-col }};
-  background-color: {{ site.footer-button-col  }};
+  background-color: {{ site.tag-button-col  }};
   text-decoration: none;
   padding: 0.25rem 0.65rem;
   border-radius: 5rem;
@@ -624,7 +623,7 @@ footer .footer-custom-content {
   text-decoration: none;
   border-radius: 2rem;
   color: {{ site.link-col }};
-  background-color: {{ site.footer-button-col }};
+  background-color: {{ site.tag-button-col }};
   border: 1px solid transparent;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
@@ -811,7 +810,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-weight: 600;
   letter-spacing: 1px;
   padding: 0.625rem 0.3125rem;
-  background-color: {{ site.footer-button-col }};
+  background-color: {{ site.tag-button-col }};
   border-radius: 5px;
   border-color: {{ site.border-col | default: "#404040" }};
   color: {{ site.text-col | default: "#404040" }};
