@@ -132,7 +132,7 @@ post-date-col: "#88919C"
 border-col: "#d0d7de"
 tag-button-col: "#ddf4ff"
 footer-button-col: "#282C34"
-code-bg-col: "#282f3D"
+code-bg-col: "#282C34"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
